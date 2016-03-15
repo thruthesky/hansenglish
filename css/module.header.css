@@ -1,0 +1,40 @@
+header {
+    position: relative;
+    height: 111px;
+    overflow: hidden;
+}
+header .top-line {
+    height: 11px;
+    overflow: hidden;
+    background-image: url('../img/header-top-background.png');
+}
+
+header .logo img {
+    width: 318px;
+    height: auto;
+}
+
+
+header .top-menu {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+header .top-menu img {
+    display: block;
+    float:left;
+}
+
+
+header .menu {
+    position: absolute;
+    left: 34%;
+    bottom: 0;
+}
+
+
+@media only screen and (min-width: 1290px) {
+    header .menu img {
+        padding: 0 1em;
+    }
+}

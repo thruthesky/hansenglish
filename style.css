@@ -1,0 +1,12 @@
+/*
+Theme Name: Hans English
+Version: 0.1.1
+*/
+
+#main-banner {
+    overflow:hidden;
+}
+
+#main-banner object {
+    height:360px;
+}
