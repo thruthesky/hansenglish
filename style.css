@@ -10,3 +10,15 @@ Version: 0.1.1
 #main-banner object {
     height:360px;
 }
+
+.front-content {
+	margin: 0 120px 0 175px;
+}
+
+.front-content img {
+	max-width: 100%;
+	height: auto;
+}
+.cntnBtn img {
+	display: block;
+}

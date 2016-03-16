@@ -1,8 +1,6 @@
 <?php
 get_header();
 
-
-
 if ( strpos(segment(0), 'menu') !== FALSE ) {
     $menu = segment(0);
     include get_template_directory() . "/page/$menu.php";
