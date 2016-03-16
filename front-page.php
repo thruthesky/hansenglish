@@ -8,8 +8,16 @@ get_header();
         <param name="wmode" value="transparent" />
     </object>
 </div>
-<div>
-    <img src="<?php echo get_template_directory_uri()?>/tmp/head_page.jpg" width="100%", valign="top">
+<div class="front-content">
+	<div class="content-1">
+			<div class="cntnBtn">
+			<img src="<?php echo get_template_directory_uri()?>/img/contentBtn-1.png" >
+			<img src="<?php echo get_template_directory_uri()?>/img/contentBtn-2.png" >
+			</div>
+	<a href="<?php hd()?>menu1"><img src="<?php echo get_template_directory_uri()?>/img/content-1.png" ></a>
+	</div>
+    <a href="<?php hd()?>menu2"><img src="<?php echo get_template_directory_uri()?>/img/content-2.png" ></a>
+    <a href="<?php hd()?>menu3"><img src="<?php echo get_template_directory_uri()?>/img/content-3.png" ></a>
 </div>
 <?php
 get_footer();
