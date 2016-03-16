@@ -1,0 +1,21 @@
+
+
+section.content {
+    position: relative;
+    margin: 0 auto;
+    max-width: 990px;
+    min-height: 1024px;
+}
+
+
+@media all and ( min-width: 1300px ) {
+    .sidebar {
+        position: absolute;
+        top: 24px;
+        left: -140px;
+    }
+    .sidebar img {
+        display: block;
+        margin-bottom: .4em;
+    }
+}

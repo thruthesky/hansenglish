@@ -32,9 +32,19 @@ header .menu {
     bottom: 0;
 }
 
+header .menu ul {
+    list-style: none;
+}
+header .menu ul li {
+    float: left;
+    margin: 0 .5em;
+}
 
-@media only screen and (min-width: 1290px) {
-    header .menu img {
-        padding: 0 1em;
+
+@media all and ( max-width: 1200px ) {
+    header .menu ul li {
+        margin: 0;
     }
 }
+
+
