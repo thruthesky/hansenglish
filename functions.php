@@ -36,3 +36,9 @@ function theme_enqueue_styles() {
     wp_enqueue_style( 'theme', get_template_directory_uri() . '/css/theme.css' );
 }
 
+
+
+add_shortcode('intro', function ( ) {
+    include get_template_directory() . '/page/intro.php';
+});
+
