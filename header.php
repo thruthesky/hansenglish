@@ -20,13 +20,13 @@
             <img src="<?php id()?>top-menu-3.png">
         </div>
         <div class="menu">
-            <a href="<?php hd()?>menu-1"><img src="<?php id()?>menu1.png"></a>
-            <a href="<?php hd()?>menu-2"><img src="<?php id()?>menu2.png"></a>
-            <a href="<?php hd()?>menu-3"><img src="<?php id()?>menu3.png"></a>
-            <a href="<?php hd()?>menu-4"><img src="<?php id()?>menu4.png"></a>
-            <a href="<?php hd()?>menu-5"><img src="<?php id()?>menu5.png"></a>
-            <a href="<?php hd()?>menu-6"><img src="<?php id()?>menu6.png"></a>
-            <a href="<?php hd()?>menu-7"><img src="<?php id()?>menu7.png"></a>
+            <a href="<?php hd()?>menu1"><img src="<?php id()?>menu1.png"></a>
+            <a href="<?php hd()?>menu2"><img src="<?php id()?>menu2.png"></a>
+            <a href="<?php hd()?>menu3"><img src="<?php id()?>menu3.png"></a>
+            <a href="<?php hd()?>menu4"><img src="<?php id()?>menu4.png"></a>
+            <a href="<?php hd()?>menu5"><img src="<?php id()?>menu5.png"></a>
+            <a href="<?php hd()?>menu6"><img src="<?php id()?>menu6.png"></a>
+            <a href="<?php hd()?>menu7"><img src="<?php id()?>menu7.png"></a>
         </div>
     </nav>
 </header>
