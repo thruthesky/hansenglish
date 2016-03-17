@@ -37,8 +37,8 @@
     <section class="content">
 
         <nav class="sidebar">
-            <img src="<?php echo get_template_directory_uri()?>/img/contentBtn-1.png" >
-            <img src="<?php echo get_template_directory_uri()?>/img/contentBtn-2.png" >
+            <img src="<?php echo id()?>contentBtn-1.png" >
+            <img src="<?php echo id()?>contentBtn-2.png" >
         </nav>
 
         <section class="data">
